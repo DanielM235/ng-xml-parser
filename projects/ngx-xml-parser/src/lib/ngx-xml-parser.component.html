@@ -1,0 +1,7 @@
+<div class="header">
+  <div class="path">{{currentPath}}</div>
+  <ngx-file-loader (fileLoaded)="onFileSelected($event)"></ngx-file-loader>
+</div>
+<div class="body">
+  <ngx-xml-reader [items]="items"></ngx-xml-reader>
+</div>

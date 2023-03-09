@@ -1,0 +1,14 @@
+<table>
+  <tbody>
+    <tr *ngFor="let item of items" [style.color]="item.color" [style.background]="item.bgColor">
+      <th *ngIf="item.th" [style.background]="item.th.bgColor ?? item.bgColor" [style.color]="item.th.color"
+          class="time">
+        <span>{{item.th.title}}</span>
+        {{item.th.content}}
+      </th>
+      <td *ngFor="let cell of item.cells" [style.color]="cell.color" [style.background]="cell.bgColor ?? item.bgColor">
+        {{cell.content}}
+      </td>
+    </tr>
+  </tbody>
+</table>
