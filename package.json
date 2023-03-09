@@ -1,8 +1,19 @@
 {
   "name": "ngx-xml-parser",
   "description": "Angular library to parse and read xml files",
-  "version": "0.0.1",
-  "bugs": "https://github.com/DanielM235/ngx-xml-parser",
+  "version": "0.1.0",
+  "author": {
+    "name": "Daniel Mayer",
+    "email": "23dm57@gmail.com"
+  },
+  "homepage": "https://github.com/DanielM235/ngx-xml-parser",
+  "keywords": [
+    "angular",
+    "angular library",
+    "xml",
+    "xml parser",
+    "xml viewer"
+  ],
   "license": "MIT",
   "scripts": {
     "ng": "ng",
@@ -14,7 +25,6 @@
     "test-auto": "ng test",
     "lint": "ng lint"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^15.2.0",
     "@angular/common": "^15.2.0",

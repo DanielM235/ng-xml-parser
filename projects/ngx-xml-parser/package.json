@@ -1,6 +1,19 @@
 {
   "name": "ngx-xml-parser",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "author": {
+    "name": "Daniel Mayer",
+    "email": "23dm57@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/DanielM235/ngx-xml-parser",
+  "keywords": [
+    "angular",
+    "angular library",
+    "xml",
+    "xml parser",
+    "xml viewer"
+  ],
   "peerDependencies": {
     "@angular/common": "^15.2.0",
     "@angular/core": "^15.2.0"
